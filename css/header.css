@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 header {
-    height: 1000px;
+    height: 750px;
     width: auto;
     background-image: url(../assets/barbearia.png);
     background-repeat: no-repeat;
@@ -26,6 +26,7 @@ li {
 }
 .logo_imagem {
     width: 140px;
+    border-radius: 100px;
 }
 .barra_navegacao__itens {
     display: flex;

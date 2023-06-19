@@ -1,5 +1,23 @@
-main {
+.sobre_nos {
+    display: flex;
     width: 100vw;
-    height: 1000px;
-    background-color: rgb(38,50,56,255);
+    height: 800px;
+    background-color: #fafafa;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sobre_nos img {
+    width: auto;
+    height: 600px;
+}
+.sobre_nos__texto {
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    width: 250px;
+    gap: 40px;
+    color: rgb(38,50,56,255);
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
 }

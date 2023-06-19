@@ -1,0 +1,18 @@
+.galeria {
+    width: 100vw;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(38,50,56,255);
+    background-color: #fafafa;
+}
+.imagens img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}

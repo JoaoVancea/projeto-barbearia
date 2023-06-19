@@ -1,0 +1,39 @@
+.contato {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    gap: 50px;
+    background-color: rgb(38,50,56,255);
+    color: #fafafa;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.inputs__linha {
+    display: flex;
+    gap: 4px;
+}
+.inputsLinha {
+    width: 300px;
+    height: 35px;
+    line-height: normal; 
+}
+.inputEmail {
+    width: 612px;
+    height: 35px;
+}
+.inputTexto {
+    width: 612px;
+    height: 80px;
+}
+.inputEnviar {
+    width: 620px;
+    height: 35px;
+}
